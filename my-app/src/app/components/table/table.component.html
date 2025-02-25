@@ -1,0 +1,19 @@
+<div class="example-wrapper">
+    <div class="inner-col">
+      <ag-grid-angular
+        [defaultColDef]="defaultColDef"
+        [rowData]="leftRowData"
+        [modules]="leftModules"
+        [columnDefs]="columns"
+      />
+    </div>
+
+    <div class="inner-col">
+      <ag-grid-angular
+        [defaultColDef]="defaultColDef"
+        [rowData]="leftRowData"
+        [modules]="rightModules"
+        [columnDefs]="columns"
+      />
+    </div>
+  </div>
